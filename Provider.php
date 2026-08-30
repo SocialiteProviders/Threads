@@ -31,7 +31,7 @@ class Provider extends AbstractProvider
 
     protected function getAuthUrl($state): string
     {
-        return $this->buildAuthUrlFromBase('https://threads.net/oauth/authorize', $state);
+        return $this->buildAuthUrlFromBase('https://www.threads.com/oauth/authorize', $state);
     }
 
     protected function getTokenUrl(): string
